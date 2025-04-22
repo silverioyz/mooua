@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M.O.A - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="login-page">
+  <div class="container">
+    <h1>M.O.A - Mundo Online Agrícola</h1>
+    <h2>Login de Usuário</h2>
+    <form id="user-login-form">
+      <input type="email" id="email" placeholder="E-mail" required />
+      <input type="tel" id="telefone" placeholder="Telefone" required />
+      <input type="password" id="senha" placeholder="Senha forte" required />
+      <button type="submit">Entrar</button>
+    </form>
+    <p id="mensagem-erro"></p>
+  </div>
+  <script src="firebase-config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
